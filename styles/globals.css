@@ -1,0 +1,35 @@
+@import 'swiper.css';
+@import 'ckeditor5.css';
+html,
+body {
+  padding: 0;
+  margin: 0;
+  margin-top: -10px;
+  font-family: 'Kanit', 'Bai Jamjuree', 'Prompt', sans-serif;
+}
+
+@media only screen and (min-width: 600px) {
+  body {
+    margin-top: -17px;
+  }
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* @font-face {
+  font-family: 'PslTextRegular';
+  src: url('../public/fonts/PSL-Text-Regular.ttf');
+} */
+
+#app {
+  height: 100%;
+}
